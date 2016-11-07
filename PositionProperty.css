@@ -1,0 +1,15 @@
+.main{
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	background-color: green;
+}
+li { 
+	display: inline-block; /makes list horizontal/ 
+	margin-left: 5px; 
+}
+ul { display: inline-block; 
+	list-style: none; / removes bullet points / 
+	position: relative; 
+	left: 50px; /moves links to the right from the cat picture/ 
+}
